@@ -21,15 +21,13 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-green-100 shadow-sm">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3 group">
-            <div className="p-2 bg-green-100 rounded-full group-hover:bg-green-200 transition-colors">
-              <Leaf className="h-6 w-6 text-green-600" />
-            </div>
-            <div>
-              <span className="text-xl font-bold text-gray-800">Vertex</span>
-              <span className="text-xl font-bold text-green-600">Industries</span>
+          <Link href="/" className="flex items-center group">
+            <img src="/logo.png" alt="Vertex Industries" className="h-16 w-auto object-contain" />
+            <div className="ml-2">
+              <span className="text-2xl font-bold text-green-800">Vertex</span>
+              <span className="text-2xl font-bold text-red-600">Industries</span>
             </div>
           </Link>
 

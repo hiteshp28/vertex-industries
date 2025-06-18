@@ -10,11 +10,11 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-2 bg-green-600 rounded-full">
-                <Leaf className="h-6 w-6 text-white" />
+                <img src="/logo.png" alt="Vertex Industries" className="h-12 w-12 object-contain" />
               </div>
               <div>
-                <span className="text-xl font-bold">Vertex</span>
-                <span className="text-xl font-bold text-green-400">Industries</span>
+                <span className="text-2xl font-bold">Vertex</span>
+                <span className="text-2xl font-bold text-green-400">Industries</span>
               </div>
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed text-sm">
