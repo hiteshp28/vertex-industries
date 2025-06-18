@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="p-2 bg-green-600 rounded-full">
+              <div className="p-2 bg-white rounded-full">
                 <img src="/logo.png" alt="Vertex Industries" className="h-12 w-12 object-contain" />
               </div>
               <div>
