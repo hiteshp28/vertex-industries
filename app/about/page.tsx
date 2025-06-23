@@ -95,7 +95,7 @@ export default function AboutPage() {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            <h1 className="text-5xl font-bold text-gray-800 mb-6">
+            <h1 className="text-5xl font-bold text-gray-800 mb-6 mt-5">
               About Vertex Industries
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">

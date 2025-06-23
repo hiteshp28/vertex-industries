@@ -82,7 +82,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-xs">© 2024 Vertex Industries. All rights reserved.</p>
+          <p className="text-gray-400 text-xs">© 2025 Vertex Industries. All rights reserved.</p>
           <div className="flex space-x-6 mt-2 md:mt-0">
             <span className="text-gray-400 text-xs">BIS Certified</span>
             <span className="text-gray-400 text-xs">Export Quality</span>

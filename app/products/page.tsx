@@ -171,7 +171,7 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
         <div className="max-w-6xl mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl font-bold text-gray-800 mb-6">Our Products</h1>
+            <h1 className="text-5xl font-bold text-gray-800 mb-6 mt-5">Our Products</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Discover our comprehensive range of premium HDPE woven mesh solutions, engineered to protect and enhance
               agricultural productivity.
