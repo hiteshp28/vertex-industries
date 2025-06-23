@@ -25,7 +25,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <img src="/logo.png" alt="Vertex Industries" className="h-16 w-auto object-contain" />
-            <div className="ml-2">
+            <div className="ml-8">
               <span className="text-2xl font-bold text-green-800">Vertex</span>
               <span className="text-2xl font-bold text-red-600">Industries</span>
             </div>

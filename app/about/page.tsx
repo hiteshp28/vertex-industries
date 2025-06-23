@@ -115,15 +115,15 @@ export default function AboutPage() {
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Vertex Industries is a name synonymous with innovation,
                   quality, and trust in agricultural protection solutions.
-                  Originally established in 1978 under its parent company Lotus
-                  Industries, the company began its journey in the manufacturing
+                  Originally established in 1978 under its parent company <strong>Lotus
+                  Industries</strong>, the company began its journey in the manufacturing
                   of HDPE monofilament products and woven mesh fabrics. Over the
                   decades, it built a solid foundation in technical textile
                   manufacturing with a focus on precision, performance, and
                   durability.
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  In 2005, under the visionary leadership of{" "}
+                  In 2012, under the visionary leadership of{" "}
                   <strong>Mr. Rajendra Tibrewala</strong>, the company
                   diversified into the agriculture sector, recognizing the
                   urgent need for advanced crop protection solutions tailored to

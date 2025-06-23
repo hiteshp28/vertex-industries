@@ -43,7 +43,7 @@ export default function HomePage() {
               <span className="text-green-600">Vertex</span> Industries
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 animate-fade-in-up delay-300">
-              Experts in HDPE Woven Mesh Solutions
+              Experts in HDPE Monofilament Woven Mesh Solutions
             </p>
             <p className="text-lg text-gray-500 mb-12 max-w-3xl mx-auto animate-fade-in-up delay-500">
               Leading manufacturer and exporter of premium quality Anti-Insect Nets and Anti-Hail Nets, protecting crops
@@ -73,7 +73,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Premium Products</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Discover our range of high-quality HDPE woven mesh solutions designed to protect and enhance agricultural
+              Discover our range of high-quality HDPE Monofilament woven mesh solutions designed to protect and enhance agricultural
               productivity.
             </p>
           </div>
@@ -88,14 +88,15 @@ export default function HomePage() {
                   <h3 className="text-2xl font-bold text-gray-800">Anti-Insect Net</h3>
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Premium quality HDPE monofilament mesh designed to protect crops from harmful insects while allowing
+                  Premium quality HDPE Monofilament mesh designed to protect crops from harmful insects while allowing
                   optimal air circulation and light penetration.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-500 mb-6">
+                  <li>• High tensile strength</li>
                   <li>• UV Stabilized for longevity</li>
                   <li>• Multiple mesh sizes available</li>
                   <li>• BIS Certified quality</li>
-                  <li>• Custom dimensions</li>
+                  <li>• Customized dimensions</li>
                 </ul>
                 <Link href="/products">
                   <Button variant="outline" className="w-full group-hover:bg-green-50 border-green-200">
@@ -114,7 +115,7 @@ export default function HomePage() {
                   <h3 className="text-2xl font-bold text-gray-800">Anti-Hail Net</h3>
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Robust HDPE woven mesh engineered to protect valuable crops from hail damage while maintaining
+                  Robust HDPE Monofilament woven mesh engineered to protect valuable crops from hail damage while maintaining
                   excellent weather resistance and durability.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-500 mb-6">
@@ -122,6 +123,7 @@ export default function HomePage() {
                   <li>• Weather resistant</li>
                   <li>• Easy installation</li>
                   <li>• Long-lasting protection</li>
+                  <li>• Excellent hail protection</li>
                 </ul>
                 <Link href="/products">
                   <Button variant="outline" className="w-full group-hover:bg-emerald-50 border-emerald-200">
@@ -156,7 +158,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-4">Premium Quality</h3>
               <p className="text-gray-600">
-                BIS certified HDPE monofilament fabrics with superior UV stabilization and durability.
+                BIS certified HDPE Monofilament woven fabrics with superior UV stabilization and durability.
               </p>
             </div>
 

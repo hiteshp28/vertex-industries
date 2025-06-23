@@ -106,7 +106,7 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
         { label: "Width", value: "1m to 6m" },
         { label: "Length", value: "Standard 100m rolls" },
         { label: "Color", value: "Milky White/Natural" },
-        { label: "Packing", value: "Bundles" },
+        { label: "Packing", value: "Bundles/Rolls" },
         { label: "Warranty", value: "5 years" },
         { label: "Nomination", value: "BIS Certified" },
       ],
@@ -114,7 +114,7 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
         "100% Virgin HDPE material",
         "UV stabilized for longevity",
         "Excellent air permeability",
-        "Light weight and easy to handle",
+        "High tensile strength",
         "Resistant to chemicals and weather",
       ],
       applications: [
@@ -209,7 +209,7 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
                   <div className="space-y-3 mb-6">
                     <h4 className="font-semibold text-gray-800">Key Features:</h4>
                     <ul className="space-y-1">
-                      {product.features.slice(0, 3).map((feature, idx) => (
+                      {product.features.slice(0, 4).map((feature, idx) => (
                         <li key={idx} className="flex items-center text-sm text-gray-600">
                           <CheckCircle className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
                           {feature}
