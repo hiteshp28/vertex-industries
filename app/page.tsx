@@ -88,7 +88,7 @@ export default function HomePage() {
                   <h3 className="text-2xl font-bold text-gray-800">Anti-Insect Net</h3>
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Premium quality HDPE Monofilament mesh designed to protect crops from harmful insects while allowing
+                  Premium quality HDPE Monofilament woven mesh designed to protect crops from harmful insects while allowing
                   optimal air circulation and light penetration.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-500 mb-6">
