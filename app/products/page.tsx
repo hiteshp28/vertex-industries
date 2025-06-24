@@ -96,7 +96,7 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
       id: "anti-insect-net",
       name: "Anti-Insect Net",
       description:
-        "Premium quality HDPE monofilament mesh designed to protect crops from harmful insects while allowing optimal air circulation and light penetration.",
+        "Premium quality HDPE monofilament woven mesh designed to protect crops from harmful insects while allowing optimal air circulation and light penetration.",
       icon: <Shield className="h-8 w-8 text-green-600" />,
       image: "/anti_insect.avif",
       specs: [

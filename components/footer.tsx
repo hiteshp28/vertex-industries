@@ -66,7 +66,7 @@ export default function Footer() {
 
           {/* Address */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-green-400">Our Address</h3>
+            <h3 className="text-lg font-semibold mb-4 text-green-400">Office Address</h3>
             <div className="flex items-start space-x-3">
               <MapPin className="h-5 w-5 text-green-400 mt-1" />
               <p className="text-gray-300 leading-relaxed text-sm">

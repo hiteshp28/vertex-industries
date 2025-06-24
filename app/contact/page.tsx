@@ -85,7 +85,14 @@ export default function ContactPage() {
     {
       icon: <Phone className="h-6 w-6 text-green-600" />,
       title: "Phone",
-      details: ["022-26054493 / +91 9821018954"],
+      details: ["+91-22-26054493 / 26461069"],
+      action: "Call Now",
+      actionLink: "tel:+912226054493",
+    },
+    {
+      icon: <Phone className="h-6 w-6 text-green-600" />,
+      title: "Mobile",
+      details: ["+91-9821018954"],
       action: "Call Now",
       actionLink: "tel:+919821018954",
     },
@@ -99,13 +106,13 @@ export default function ContactPage() {
     {
       icon: <MessageCircle className="h-6 w-6 text-green-600" />,
       title: "WhatsApp for Samples",
-      details: ["Mr. Pawar - 9503290174"],
+      details: ["Mr. Pawar: +91-9503290174"],
       action: "Chat Now",
       actionLink: "https://wa.me/919503290174",
     },
     {
       icon: <MapPin className="h-6 w-6 text-emerald-600" />,
-      title: "Address",
+      title: "Office Address",
       details: [
         "2, Violete Villa, Ground Floor",
         "West Avenue Road, Santacruz (W)",
@@ -191,14 +198,14 @@ export default function ContactPage() {
                       <span className="font-medium">11:00 AM - 7:00 PM</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Saturday :</span>
+                      <span>Sunday:</span>
                       <span className="font-medium text-red-600">Closed</span>
                     </div>
                   </div>
                   <div className="mt-4 p-3 bg-blue-50 rounded-lg">
                     <p className="text-sm text-blue-700">
                       <strong>Emergency Contact:</strong> For urgent
-                      requirements, WhatsApp Mr. Pawar at 9503290174 anytime.
+                      requirements, WhatsApp Mr. Pawar at +91-9503290174 anytime.
                     </p>
                   </div>
                 </CardContent>
