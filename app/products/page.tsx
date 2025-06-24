@@ -103,8 +103,8 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
         { label: "Material", value: "HDPE Monofilament" },
         { label: "Mesh Size", value: "25x10, 40x25, 50x25 mesh" },
         { label: "GSM", value: "50-120 GSM" },
-        { label: "Width", value: "1Mt to 6Mt" },
-        { label: "Length", value: "Standard 100Mt rolls" },
+        { label: "Width", value: "1Mt. to 6Mt." },
+        { label: "Length", value: "Standard 100Mt. rolls" },
         { label: "Color", value: "Milky White/Natural" },
         { label: "Packing", value: "Bundles/Rolls" },
         { label: "Warranty", value: "5 years" },
@@ -138,8 +138,8 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
         { label: "Material", value: "HDPE" },
         { label: "Mesh Size", value: "6x10" },
         { label: "GSM", value: "70 GSM" },
-        { label: "Width", value: "8Mt & 10Mt" },
-        { label: "Length", value: "30Mt" },
+        { label: "Width", value: "8Mt. & 10Mt." },
+        { label: "Length", value: "30Mt." },
         { label: "Color", value: "Natural" },
         { label: "Life", value: "5 years" },
         { label: "Packing", value: "Inner Polyethylene and outer rafia bag" },
@@ -289,9 +289,9 @@ Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`,
                             <tbody>
                               <tr>
                                 <td className="border border-gray-300 px-2 py-1 font-semibold">WIDTH</td>
-                                <td className="border border-gray-300 px-2 py-1">2.60Mt, 3.20Mt, 3.65Mt, 4.20Mt, 5.20Mt</td>
-                                <td className="border border-gray-300 px-2 py-1">4.20Mt, 5.20Mt</td>
-                                <td className="border border-gray-300 px-2 py-1">3.20Mt, 3.65Mt</td>
+                                <td className="border border-gray-300 px-2 py-1">2.60Mt., 3.20Mt., 3.65Mt., 4.20Mt., 5.20Mt.</td>
+                                <td className="border border-gray-300 px-2 py-1">4.20Mt., 5.20Mt.</td>
+                                <td className="border border-gray-300 px-2 py-1">3.20Mt., 3.65Mt.</td>
                               </tr>
                             </tbody>
                           </table>
