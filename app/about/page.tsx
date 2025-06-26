@@ -98,10 +98,22 @@ export default function AboutPage() {
             <h1 className="text-5xl font-bold text-gray-800 mb-6 mt-5">
               About Vertex Industries
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-             We would like to inform
-              you about our firm VERTEX INDUSTRIES. We are leading manufacturers
-              and exporters of HDPE monofilament woven fabric in India and beyond.
+            <p className="text-xl text-gray-600 text-center max-w-4xl mx-auto leading-relaxed mb-8">
+              VERTEX INDUSTRIES is leading manufacturer & exporter of HDPE
+              Monofilament Woven Fabrics in India.
+              <br />
+              We have a fully integrated manufacturing unit, the required team &
+              infrastructure to make insect net on large scale. We first extrude
+              Monofilament Yarn from HDPE granules on our PE Monofilament making
+              machine. The monofilament yarn is then quality tested for denier,
+              tensile strength, heal shrinkage etc. The monofilament yarn is
+              then woven into insect net/mesh using latest weaving technology.
+              The insect net is then subjected to quality test with respect to
+              tensile strength, bursting strength, air permeability etc. 
+              <br />After complete quality scrutiny, the inset net is then packed & is made
+              ready for despatch. We have the latest technology yarn making,
+              warping & weaving machinery. Many of our machines are imported
+              from Europe & USA.
             </p>
           </div>
 
@@ -115,12 +127,12 @@ export default function AboutPage() {
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Vertex Industries is a name synonymous with innovation,
                   quality, and trust in agricultural protection solutions.
-                  Originally established in 1978 under its parent company <strong>Lotus
-                  Industries</strong>, the company began its journey in the manufacturing
-                  of HDPE monofilament products and woven mesh fabrics. Over the
-                  decades, it built a solid foundation in technical textile
-                  manufacturing with a focus on precision, performance, and
-                  durability.
+                  Originally established in 1978 under its parent company{" "}
+                  <strong>Lotus Industries</strong>, the company began its
+                  journey in the manufacturing of HDPE monofilament products and
+                  woven mesh fabrics. Over the decades, it built a solid
+                  foundation in technical textile manufacturing with a focus on
+                  precision, performance, and durability.
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   In 2012, under the visionary leadership of{" "}

@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col ml-3">
             <h3 className="text-lg font-semibold mb-4 text-green-400">Quick Links</h3>
             <ul className="space-y-2">
               <li>
@@ -77,18 +77,32 @@ export default function Footer() {
                 Mumbai 400 054, India
               </p>
             </div>
+            <div className="w-full flex justify-center mt-6">
+          <div className="bg-white/90 rounded-xl shadow-lg px-6 py-3 flex items-center">
+            <img
+              src="/makeinindia.png"
+              alt="Make in India"
+              className="h-12 md:h-16 object-contain"
+              style={{ filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.15))" }}
+            />
+          </div>
+        </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-xs">© 2025 Vertex Industries. All rights reserved.</p>
+          <div className="flex items-center space-x-4">
+            <p className="text-gray-400 text-xs">© 2025 Vertex Industries. All rights reserved.</p>
+            
+          </div>
           <div className="flex space-x-6 mt-2 md:mt-0">
             <span className="text-gray-400 text-xs">BIS Certified</span>
             <span className="text-gray-400 text-xs">Export Quality</span>
             <span className="text-gray-400 text-xs">ISO Standards</span>
           </div>
         </div>
+        
       </div>
     </footer>
   )
