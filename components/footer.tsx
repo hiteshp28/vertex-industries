@@ -78,14 +78,6 @@ export default function Footer() {
               </p>
             </div>
             <div className="w-full flex justify-center mt-6">
-          <div className="bg-white/90 rounded-xl shadow-lg px-6 py-3 flex items-center">
-            <img
-              src="/makeinindia.png"
-              alt="Make in India"
-              className="h-12 md:h-16 object-contain"
-              style={{ filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.15))" }}
-            />
-          </div>
         </div>
           </div>
         </div>
