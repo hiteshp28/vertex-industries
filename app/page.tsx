@@ -36,7 +36,7 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden p-0 sm:p-0">
+      <section className="relative min-h-[70vh] sm:min-h-screen flex items-center justify-center overflow-hidden p-0 sm:p-0">
         {/* Sliding Background Images */}
         {heroImages.map((img, idx) => (
           <img
