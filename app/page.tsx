@@ -36,7 +36,7 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden p-0 sm:p-0">
         {/* Sliding Background Images */}
         {heroImages.map((img, idx) => (
           <img
@@ -59,7 +59,7 @@ export default function HomePage() {
           <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-green-300/20 rounded-full animate-pulse delay-500" />
         </div> */}
 
-        <div className="relative z-30 text-center px-4 max-w-6xl mx-auto w-full">
+        <div className="relative z-30 text-center px-3 sm:px-4 max-w-full sm:max-w-6xl mx-auto w-full">
           <div
             className={`transition-all duration-1000 ${
               isVisible
@@ -67,13 +67,13 @@ export default function HomePage() {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+            <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight drop-shadow-lg">
               <span className="text-green-300">Vertex</span> Industries
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-white mb-8 animate-fade-in-up delay-300 drop-shadow">
+            <p className="text-base xs:text-lg sm:text-xl md:text-2xl text-white mb-4 sm:mb-8 animate-fade-in-up delay-300 drop-shadow">
               Experts in HDPE Monofilament Woven Mesh Solutions
             </p>
-            <p className="text-base sm:text-lg md:text-xl text-white mb-12 max-w-3xl mx-auto animate-fade-in-up delay-500 drop-shadow">
+            <p className="text-sm xs:text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-12 max-w-xs xs:max-w-sm sm:max-w-3xl mx-auto animate-fade-in-up delay-500 drop-shadow">
               Leading manufacturer and exporter of premium quality Anti-Insect
               Nets and Anti-Hail Nets, protecting crops and enhancing
               agricultural productivity across India and beyond.
@@ -81,7 +81,7 @@ export default function HomePage() {
             <Button
               onClick={scrollToProducts}
               size="lg"
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg animate-fade-in-up delay-700 group"
+              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 sm:px-8 sm:py-4 text-base sm:text-lg animate-fade-in-up delay-700 group w-full max-w-xs mx-auto"
             >
               Explore Our Products
               <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
@@ -90,7 +90,7 @@ export default function HomePage() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30 animate-bounce">
+        <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 z-30 animate-bounce">
           <ArrowDown className="h-6 w-6 text-green-300" />
         </div>
       </section>
